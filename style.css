@@ -266,7 +266,7 @@ button{
 }
 
 .gym-container{
-    width: 80%;
+    width: 100%;
     margin: 0px auto;
     border-radius: 8px;
     background-color: #222222;
@@ -585,12 +585,12 @@ hr{
         height: auto;
     }
     .card-position-top{
-        bottom: -40rem;
+        bottom: -14rem;
         left: 55%;
         column-gap: 0px;
     }
     .card-position-bottom{
-        bottom: -49rem;
+        bottom: -24rem;
         left: 5px;
     }
     .bmi-form{
@@ -601,6 +601,7 @@ hr{
     }
 
     /* Gym Section */
+
     .gym-figure{
         flex-direction: column-reverse;
         margin: 20px 8px;
@@ -610,6 +611,4 @@ hr{
         width: 100%;
         height: 100%;
     }
-
-
   }
