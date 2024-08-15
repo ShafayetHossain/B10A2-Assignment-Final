@@ -454,6 +454,8 @@ input::placeholder{
     background-color: #222222;
     padding: 1.5rem 0px;
     border-radius: 8px;
+    justify-content: center;
+    width: 100%;
   }
   .team-image-content{
     position: absolute;
@@ -462,7 +464,8 @@ input::placeholder{
   }
   .team-image-holder{
     height: 17rem;
-    width: 20rem;
+    /* width: 20rem; */
+    width: 100%;
 
   }
   .team-image img{
@@ -535,7 +538,11 @@ hr{
     }
     .team-image-container{
         grid-template-columns: repeat(1,1fr);
-        padding: 1.5rem 1rem;
+        /* padding: 1.5rem 1rem; */
+        padding: 0px;
+    }
+    .team-image{
+        width: 100%;
     }
 
     .banner-content,
@@ -577,15 +584,15 @@ hr{
         max-width: 8rem;
         height: auto;
     }
-    .card-position-bottom{
-        bottom: -50rem;
-        left: 5px;
-    }
     .card-position-top{
-        bottom: -40rem;
-        /* left: 13.8rem; */
-        left: 52%;
+        bottom: -.5rem;
+        left: 55%;
+        /* left: 52%; */
         column-gap: 0px;
+    }
+    .card-position-bottom{
+        bottom: -11rem;
+        left: 5px;
     }
     .bmi-form{
         width: 95%;
@@ -597,6 +604,8 @@ hr{
     /* Gym Section */
     .gym-figure{
         flex-direction: column-reverse;
+        margin: 20px 8px;
+        text-align: center;
     }
     .figure-content{
         width: 100%;
