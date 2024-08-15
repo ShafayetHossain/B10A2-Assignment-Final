@@ -583,7 +583,8 @@ hr{
     }
     .card-position-top{
         bottom: -40rem;
-        left: 13.8rem;
+        /* left: 13.8rem; */
+        left: 52%;
         column-gap: 0px;
     }
     .bmi-form{
