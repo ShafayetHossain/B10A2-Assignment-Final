@@ -585,13 +585,12 @@ hr{
         height: auto;
     }
     .card-position-top{
-        bottom: -.5rem;
+        bottom: -40rem;
         left: 55%;
-        /* left: 52%; */
         column-gap: 0px;
     }
     .card-position-bottom{
-        bottom: -11rem;
+        bottom: -49rem;
         left: 5px;
     }
     .bmi-form{
