@@ -328,7 +328,7 @@ button{
     border: none;
     margin: 0px;
 }
-.figure-button a{
+.figure-button a,.nav-bar a{
     text-decoration: none;
     color: #FFFFFF;
 }
