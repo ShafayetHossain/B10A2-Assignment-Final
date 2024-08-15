@@ -175,10 +175,6 @@ button{
 
 }
 .card-position-bottom{
-    /* top: -190px;
-    left: -150px;
-    align-items: center;
-    justify-content: space-between; */
     position: absolute;
     align-items: center;
     justify-content: space-between;
@@ -187,9 +183,6 @@ button{
     column-gap: 8px;
 }
 .card-position-top{
-    /* top: -590px;
-    left: 150px;
-    align-items: center; */
     position: absolute;
     align-items: center;
     justify-content: space-between;
@@ -579,13 +572,18 @@ hr{
     .exercises-image img{
         width: 97%;
     }
+    .card{
+        line-height: 1.5rem;
+        max-width: 8rem;
+        height: auto;
+    }
     .card-position-bottom{
-        bottom: -25rem;
-        left: 0px;
+        bottom: -50rem;
+        left: 5px;
     }
     .card-position-top{
-        bottom: -13rem;
-        left: 16rem;
+        bottom: -40rem;
+        left: 13.8rem;
         column-gap: 0px;
     }
     .bmi-form{
